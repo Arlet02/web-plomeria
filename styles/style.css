@@ -1,0 +1,93 @@
+*{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.lang{
+    width: 45px;
+    height: 30px;
+}
+
+.dropdownmenu-size{
+    min-width: 5rem !important;
+}
+
+.aligning{
+    text-align: justify;
+}
+
+.margin-row{
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+
+.images:hover {
+    filter: opacity(.5);
+}
+
+.notes{
+    color: rgb(202, 16, 16);
+    font-style: italic;
+}
+
+.heading{
+    font-size: 2.5vw !important;
+}
+
+.styling{
+    font-size: 1.9vw !important;
+
+}
+
+.section-margin{
+    width: 90%;
+    margin: 6rem auto;
+    padding: 3rem 1rem;
+}
+.galery{
+    width:100%;
+    height: 30rem;
+}
+.galery-size{
+    width:80vw; 
+    margin: auto;
+}
+
+.carousel-marging{
+    margin-top: 2rem;
+}
+.heading-marging{
+    margin-top: 6rem;
+}
+
+.home-move {
+    /* The image used */
+    background-image: url("../images/fondo.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-move {
+    /* The image used */
+    background-image: url("../images/pila.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
