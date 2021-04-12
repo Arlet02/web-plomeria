@@ -40,7 +40,8 @@ body{
 }
 
 .styling{
-    font-size: 1.9vw !important;
+    font-size: 2.3vw !important;
+    /* font-size: 2rem !important; */
 
 }
 
@@ -49,21 +50,49 @@ body{
     margin: 6rem auto;
     padding: 3rem 1rem;
 }
-.galery{
+.galery-carousel{
     width:100%;
-    height: 30rem;
+    height: 25rem;
 }
 .galery-size{
+    width:80vw; 
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+#galery-pictures{
+    margin: 2rem auto;
+}
+#galery-pictures > div>div> img{
+    width:100% !important; 
+    height:10rem !important;
+}
+.galery-pictures{
     width:80vw; 
     margin: auto;
 }
 
 .carousel-marging{
-    margin-top: 2rem;
+    margin-top: 0rem;
+}
+
+.card-margin{
+    margin-right:1rem ;
 }
 .heading-marging{
     margin-top: 6rem;
+    /* margin-bottom: 1rem; */
 }
+
+.contact-picture{
+    width:60% !important; 
+    height:3rem !important;
+}
+#contact-group > div > img{
+    width:60% !important; 
+    height:5rem !important;
+}
+
 
 .home-move {
     /* The image used */
