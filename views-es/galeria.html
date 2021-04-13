@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="../styles/css-b/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/js-b/bootstrap.min.js"></script> -->
 </head>
 <body>
     
@@ -123,7 +126,21 @@
             <div class="card-group mb-3">
                 <div class="card card-margin">
                     <img src="../images/pila.jpg" id="card0" onmouseover="change_image()"  
-                    onmouseout="change_image()" class="card-img-top card-picture" alt="pila">
+                    onmouseout="change_image()" class="card-img-top card-picture" alt="pila" data-bs-toggle="modal"  data-bs-target="#p1" >
+                    <div class="modal fade" id="p1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
+            
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     
                     <div class="card-footer text-muted fst-italic d-flex justify-content-center">
                         Pila
@@ -131,21 +148,42 @@
                 </div>
                 <div class="card card-margin">
                     <img src="../images/mapa.jpg" class="card-img-top" alt="mapa" id="card1" onmouseover="change_image()"  
-                    onmouseout="change_image()" >
-                    <!-- <div class="card-body">
-                        <h5 class="card-title">mapa</h5>
-                        
-                    </div> -->
+                    onmouseout="change_image()"data-bs-toggle="modal"  data-bs-target="#p2" >
+                    <div class="modal fade" id="p2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
+            
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     <div class="card-footer text-muted fst-italic d-flex justify-content-center">
                         mapa
                     </div>
                 </div>
                 <div class="card">
                     <img src="../images/fondo.jpg" class="card-img-top" alt="fondo" id="card2" onmouseover="change_image()"  
-                    onmouseout="change_image()" >
-                    <!-- <div class="card-body">
-                        <h5 class="card-title">fondo</h5>
-                    </div> -->
+                    onmouseout="change_image()" data-bs-toggle="modal"  data-bs-target="#p3" >
+                    <div class="modal fade" id="p3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
+            
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     <div class="card-footer text-muted fst-italic  d-flex justify-content-center">
                         fondo
                     </div>
@@ -156,29 +194,63 @@
             <div class="card-group ">
                 <div class="card card-margin">
                     <img src="../images/pila.jpg" class="card-img-top" alt="pila" id="card3" onmouseover="change_image()"  
-                    onmouseout="change_image()">
+                    onmouseout="change_image()"data-bs-toggle="modal"  data-bs-target="#p4" >
+                    <div class="modal fade" id="p4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
             
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     <div class="card-footer text-muted">
                         Pila
                     </div>
                 </div>
                 <div class="card card-margin">
                     <img src="../images/mapa.jpg" class="card-img-top" alt="mapa" id="card4" onmouseover="change_image()"  
-                    onmouseout="change_image()">
-                    <!-- <div class="card-body">
-                        <h5 class="card-title">mapa</h5>
-                        
-                    </div> -->
+                    onmouseout="change_image()"data-bs-toggle="modal"  data-bs-target="#p5" >
+                    <div class="modal fade" id="p5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
+            
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     <div class="card-footer text-muted">
                         mapa
                     </div>
                 </div>
                 <div class="card">
                     <img src="../images/fondo.jpg" class="card-img-top" alt="fondo" id="card5" onmouseover="change_image()"  
-                    onmouseout="change_image()">
-                    <!-- <div class="card-body">
-                        <h5 class="card-title">fondo</h5>
-                    </div> -->
+                    onmouseout="change_image()"data-bs-toggle="modal"  data-bs-target="#p6" >
+                    <div class="modal fade" id="p6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <img src="../images/prueba/prueba3.jpg" alt=""  >
+            
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
                     <div class="card-footer text-muted">
                         fondo
                     </div>
@@ -187,10 +259,14 @@
 
             
         </div>
-        
 
 
+     
+    
     </div>
+
+
+
 
     <footer>
         <div id="footer"> 
@@ -199,7 +275,8 @@
 
 
     </footer>
-
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/js-b/bootstrap.min.js"></script>
 
     <script>
@@ -229,6 +306,30 @@
 
         }
         
+        function showing(){
+          
+           console.log( window.event.target.attributes[0].nodeValue);
+            var id =  (window.event.target.attributes[3].nodeValue);
+            id = id.substring(1,id.length);
+            console.log(id);
+            var src = window.event.target.attributes[3].nodeValue;
+            var cards = document.getElementById("#p11");
+            var cards = document.getElementsByClassName("card");
+            var nodo = " <div class='modal fade' id=' " + id + "' data-bs-backdrop='static' data-bs-keyboard='false' tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true'>"+
+            "<div class='modal-dialog'>  <div class='modal-content'> <div class='modal-header'> "+       
+                  "<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button> </div>"+
+                  " <div class='modal-body d-flex justify-content-center'> " +
+                   " <img src='"+src +"'  > </div>  </div></div></div>";
+            var x = document.createElement('div');
+            x.innerHTML = "hola";
+           cards= cards.appendChild(x);
+            // for (let index = 0; index < cards.length; index++) {
+            //     const element = cards[index];
+            //     element.appendChild(x);
+                
+            // }
+            console.log(cards);
+        }
     </script>
 </body>
 </html>
