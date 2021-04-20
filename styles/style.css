@@ -93,6 +93,27 @@ body{
     height:5rem !important;
 }
 
+.about-body-style{
+    margin: auto; 
+    color: white;
+    font-size: 3vw !important;
+}
+.about-background{
+    /* background-color: rgb(143, 138, 138); border-radius: 20px; */
+    background-color: slategray;
+    border-radius: 20px;
+
+    /* slategray */
+}
+.about-img-text{
+    width: 90%;
+    margin: 6rem auto;
+    padding: 0!important ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    background: slategrey; 
+}
+
 
 .home-move {
     /* The image used */
